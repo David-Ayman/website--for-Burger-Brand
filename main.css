@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    margin:5px 20px ;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+.page .nav .navbar{
+    width: 100%;
+    height:50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: #e8e4e1;
+    
+}
+.navbar-collapse{
+    /* background: rgb(225, 221, 221);    */
+    background: #e6bc99;
+}
+.page .nav .navbar .navbar-brand{
+    color:#F66300 ;
+    font-weight: bold;
+    font-size: 29px;
+    margin-top:-5px ;
+}
+.page .nav .navbar .navbar-toggler{
+    margin-top:-7px ;
+    color: #F66300 ;
+}
+.page .nav .navbar .navbar-collapse .nav-link{
+    border-radius: 10px;
+    
+}
+.page .nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.page .nav::before{
+    content: "";
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.page .nav ul  h1{
+position: absolute;
+left: 0;
+color:#F66300;
+margin-top: 10px;
+}
+.page .nav ul li a span{
+    color:#F66300;
+}
+.page .nav ul li a span:hover{
+    background-color:#F66300 ;
+    color: aliceblue;
+}
+.page .nav ul li a{
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(192, 182, 182);
+    font-size: 17px;
+    transition: all .5s;
+}
+.page .nav ul li a:hover{
+    background-color:#F66300 ;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.page .nav ul li{
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+/* ======================end nav =============== */
+.page .sky{
+    background-image:url(images/burger.jpg) ;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.page .group{
+    display: flex;
+    justify-content: space-between;
+}
+.page .group .div1 {
+width:15%;
+height: 100px;
+background-image: url(images/burger2.jpg);
+background-size:100% 100% ;
+}
+.page .group .div2{
+    width:15%;
+height: 100px;
+background-image: url(images/burger7.jpg);
+background-size:100% 100% ;
+} 
+.page .group .div3{
+    width:15%;
+height: 100px;
+background-image: url(images/burger4.jpg);
+background-size:100% 100% ;
+} 
+.page .group .div4{
+    width:15%;
+height: 100px;
+background-image: url(images/burger5.jpg);
+background-size:100% 100% ;
+} 
+.page .group .div5{
+    width:15%;
+height: 100px;
+background-image: url(images/burger6.jpg);
+background-size:100% 100% ;
+} 
+.page .group .div6{
+    width:15%;
+height: 100px;
+background-image: url(images/burger8.jpg);
+background-size:100% 100% ;
+} 
+/* ================end group=================== */
+.page .cards{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.page .cards div .test{
+    width:99% ;
+    height: auto;
+    background-color: rgb(233, 223, 223);
+    position: relative;
+    padding: 10px;
+    margin-top: 30px;
+}
+.page  .cards div .test h1{
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 7px;
+    color: #F66300;
+    
+}
+.page .cards  div .test .fas{
+    color:#F66300 ;
+    font-size: 30px;
+}
+.page  .cards div .test p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.page  .cards div .test button{
+    width: 60px;
+    padding: 5px;
+    font-size: 17px;
+    background-color:#F66300 ;
+    color: white;
+    border:#F66300 2px solid ;
+}
+/* ======================cards===================== */
+.coal{
+    margin-bottom: 25px;
+}
+.coal .line{
+margin-top: 30px;
+}
+.coal .line h1{
+    position: relative;
+    font-size:22px;
+    color:#F66300 ;
+}
+.coal .line h1::before{
+    content: "";
+    width:520px;
+    height: 10px;
+    background-color: rgb(199, 195, 195);
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+/* =====================end recent works======== */
+.photos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.photos .div1{
+    width: 24% ;
+    height: 215px;
+    background-color:rgb(219, 219, 219) ;
+}
+.photos .div1  img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.photos .div1 h1, p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.photos .div1  p{
+    color:#F66300 ;
+}
+/* =====================end photos======== */
+.bottom{
+/* width: 95%; */
+    height: auto;
+    background-color: #F66300;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin:5px 0px
+}
+.bottom::after{
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+.bottom .div1{
+    width: 30%;
+    margin-left: 5px;
+}
+.bottom .div1 h1{
+    font-size: 15px;
+}
+.bottom .div1 p{
+    font-size: 12px;
+}
+.bottom .div1 .png img{
+    width: 30px;
+}
+/* =========================End======================= */
+@media(max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .page{
+        margin:5px 20px ;
+        background-color: rgb(255, 255, 255);
+        height: 50px;
+    }
+    .page .nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .page .nav::before{
+        content: "";
+        width:100%;
+        height: 8px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+    
+    .page .nav ul  h1{
+    position: absolute;
+    left: 0;
+    color:#F66300;
+    margin-top: 8px;
+    font-size: 24px;
+    
+    }
+    .page .nav ul li a span{
+        color:#F66300
+    }
+    .page .nav ul li a span:hover{
+        background-color:#F66300 ;
+        color: aliceblue;
+    }
+    .page .nav ul li a{
+        text-decoration: none;
+        padding: 5px;
+        color: rgb(192, 182, 182);
+        font-size: 14px;
+        margin-right: 0;
+    }
+    .page .nav ul li{
+        margin-top: 10px;
+    }
+    /* ==============1============== */
+    .page .sky{
+        background-image:url(images/burger.jpg) ;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .page .group{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .page .group .div1 {
+    width:30%;
+    height: 90px;
+    background-image: url(images/burger2.jpg);
+    background-size:100% 100% ;
+    }
+    .page .group .div2{
+        width:30%;
+    height: 90px;
+    background-image: url(images/burger7.jpg);
+    background-size:100% 100% ;
+    } 
+    .page .group .div3{
+        width:30%;
+    height:90px;
+    background-image: url(images/burger4.jpg);
+    background-size:100% 100% ;
+    } 
+    .page .group .div4{
+        width:30%;
+    height: 90px;
+    background-image: url(images/burger5.jpg);
+    background-size:100% 100% ;
+    margin-top: 5px;
+    } 
+    .page .group .div5{
+        width:30%;
+    height: 90px;
+    background-image: url(images/burger6.jpg);
+    background-size:100% 100% ;
+    margin-top: 5px;
+    } 
+    .page .group .div6{
+        width:30%;
+    height: 90px;
+    background-image: url(images/burger8.jpg);
+    background-size:100% 100% ;
+    margin-top: 5px;
+    } 
+    /* ================end group=================== */
+    .page .cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .page .cards div .test{
+        width:100% ;
+        height: auto;
+        background-color: rgb(233, 223, 223);
+        position: relative;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .page  .cards div .test h1{
+        font-size: 18px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 7px;
+        color: #F66300;
+        
+    }
+    .page  .cards  div .test .fas{
+        color:#F66300 ;
+        font-size: 30px;
+    }
+    .page  .cards div .test p{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .page  .cards div .test button{
+        width: 60px;
+        padding: 5px;
+        font-size: 17px;
+        background-color:#F66300 ;
+        color: white;
+        border:#F66300 2px solid ;
+    }
+    /* ======================cards===================== */
+    .coal{
+        margin-bottom: 25px;
+    }
+    .coal .line{
+    margin-top: 30px;
+    }
+    .coal .line h1{
+        position: relative;
+        font-size:20px;
+        color:#F66300 ;
+    }
+    .coal .line h1::before{
+        content: "";
+        width: 40%;
+        height: 7px;
+        background-color: rgb(199, 195, 195);
+        position: absolute;
+        top: 40%;
+        right: 0;
+    }
+    /* ===================end coal========== */
+    .photos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .photos .div1{
+        width: 47% ;
+        height: auto;
+        background-color:rgb(219, 219, 219) ;
+        margin-bottom: 10px;
+    }
+    .photos .div1  img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .photos .div1  p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .photos .div1 h1{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .photos .div1  p{
+        color:#F66300 ;
+    }
+/* =====================end recent works======== */
+/* }
+@media(max-width:750px){
+    .coal{
+        margin-bottom: 25px;
+    }
+    .coal .line{
+    margin-top: 30px;
+    }
+    .coal .line h1{
+        position: relative;
+        font-size:22px;
+        color:#F66300 ;
+    }
+    .coal .line h1::before{
+        content: "";
+        width:65%;
+        height: 8px;
+        background-color: rgb(199, 195, 195);
+        position: absolute;
+        top: 40%;
+        right: 0;
+    }
+    .page  .cards  div .test .fas{
+        color:#F66300 ;
+        font-size:20px;
+    }
+}   */
